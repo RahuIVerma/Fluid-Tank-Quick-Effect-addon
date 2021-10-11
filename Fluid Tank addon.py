@@ -86,7 +86,7 @@ class FluidTank(bpy.types.Operator):
         tempZ = Zmax-Zmin+Zmax_margin+Zmin_margin
 
         boundDimen = Vector((tempX, tempY, tempZ))
-        bpy.ops.mesh.primitive_cube_add(size=1, enter_editmode=False, align='WORLD', location=(domainLoc), scale=(boundDimen))
+        #bpy.ops.mesh.primitive_cube_add(size=1, enter_editmode=False, align='WORLD', location=(domainLoc), scale=(boundDimen)) # Just for seeing bounding box
         print(boundDimen)
 
          # Get the dimensions of the active object
