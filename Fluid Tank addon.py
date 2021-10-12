@@ -3,7 +3,7 @@ bl_info = {
     "author": "Rahul Verma",
     "version": (1, 0),
     "blender": (2, 80, 0),
-    "location": "Object > Quick Effects > Fluid Tank",
+    "location": "Object > Quick Effects > Quick Fluid Tank",
     "description": "Setup Fluid Tank simulation",
     "warning": "",
     "doc_url": "",
