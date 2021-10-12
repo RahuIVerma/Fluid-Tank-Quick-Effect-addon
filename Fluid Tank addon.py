@@ -14,7 +14,7 @@ import bpy
 from mathutils import Vector
 
 class FluidTank(bpy.types.Operator):
-    """My Object Moving Script"""      # Use this as a tooltip for menu items and buttons.
+    """Make selected object fluild effector and setup fluid tank simulation"""      # Use this as a tooltip for menu items and buttons.
     bl_idname = "object.quick_fluidtank"        # Unique identifier for buttons and menu items to reference.
     bl_label = "Quick Fluid Tank"         # Display name in the interface.
     bl_options = {'REGISTER', 'UNDO'}  # Enable undo for the operator.
